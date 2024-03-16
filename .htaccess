@@ -1,8 +1,1 @@
-RewriteEngine on
-
-RewriteRule .* - [F,L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
-
 AddCharset UTF-8 .txt
